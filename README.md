@@ -21,7 +21,7 @@ parser.hs 将s expression 编译为 graphviz dot 使用dot输出图片
 
 # editor
 
-vim folder
+vim folder to fold mind map script
 
 ```
 " fold for mind {{{
@@ -30,4 +30,14 @@ augroup filetype_mind
   autocmd BufEnter,BufNew *.mind setlocal foldmethod=marker foldmarker=(,)
 augroup END
 " }}}
+```
+
+# commands
+
+```bash
+# from .mind to .dot
+cat ./example/calculus.mind | ./parser > ./example/calculus.dot
+
+# generate png
+dot -Tpng ./example/calculus.dot -o calculus.png
 ```

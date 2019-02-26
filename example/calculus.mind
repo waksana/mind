@@ -1,0 +1,32 @@
+(calculus
+  (function
+    (domain
+      定义域)
+    (codomain
+      取值范围)
+    (range
+      函数的值域)
+    (inverse function
+      如果函数有反函数则函数一定是单调的)
+    composition of functions
+    (function types
+      (polynomials
+        在x很大很小的情况下图形类似
+        (quadratics
+          特殊的多项式函数))
+      (rational functions
+        定义: ploynomials/polynomials)
+      (exponentials and logarithms
+        指数和log函数)
+      (trig functions
+        sine 正弦
+        cosine 余弦
+        (tangent 正弦
+          sine/cosine)
+        (cotangent 余切
+          1/tangent)
+        (secant 割线
+          1/cosine)
+        (cosecant 余割
+          1/sine))
+      functions involving absolute values)))
